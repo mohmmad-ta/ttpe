@@ -45,12 +45,23 @@ header{
 	color: #009688;
 	transition: .7s ;
 }
-.banner-btn a:before{
+.banner-btn .btn1:before{
 	content: "";
 	width: 0;
 	height: 100%;
 	top: 0;
 	left: 0;
+	background:#fff;
+	position: absolute;
+	z-index: -1;
+	transition: .7s ;
+}
+.banner-btn .btn2:before{
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
 	background:#fff;
 	position: absolute;
 	z-index: -1;
